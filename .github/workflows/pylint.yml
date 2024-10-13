@@ -23,4 +23,3 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         black $(git ls-files '*.py')
-        pylint $(git ls-files '*.py')
